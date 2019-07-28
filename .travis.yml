@@ -52,11 +52,11 @@ script:
 deploy:
   provider: releases
   api_key:
-    secure: V2+aHQ8ZMOx55aM64oub9bnyO9OMpiAW4KsmcwYZLnyGn08D96mU6wM6aILnMhhEKjRzs9RTZxiMOV2z92pXyoOFBc4+GDN+wm07+KSqnBLuK7C0SRYN2J3G9nTQpn09bHfp6m0Xt3mTsL6q8tvQ+jR3Pj7bMChcs6QvgmAA3zXYAJ7jM+GP+Q7prCot4U9yqmK/QQvCb64wZ+D5ZarQ/6XZNvoD3YBPZ1A9/hPS2PMX/xsGiz+9H9lHAzJEkxHS1IvW++H0LR+U+QTKKKYaf7RcjW2042P0CZzOSxG/ikCFdlTcqEfQeL1HLDLggh7/7elRRgo8j5Qo2wS/JCVdsH3ya0z6fW29DAM4HtQDwbHpdi3L6NSBlPksG/kqVD7zrNVb12eh7feGnjoZ/rDUl0FA2tXVBqiMoStf6xB25AKdYdWocApq0qTYZ9JiaEODynlqw1PlCKlufhX/Wh7B+t1EmuSg59olavaDCin6aRQdF3ZpDWShi5kiaeaSjrK25QeOwh095+2Ucd/a00MgQl6AzlXB3uqhvHSTFpHjmbgRMt+JdIGOTbPV2yachp+qh1rUb8X6yy9mTvAmboizA5iXw1VnjfewRW9gPrrn4WGqEDc9jZSBeMV3YI2fGW6cyg27533iApwKseegDBT6z28I30cWUSFIA6U5PvEdG1c=
+    secure: G4cNtuEcOZQeNQwR7+ke8XoRE4L8afMkDyxRhp35u9M/U99XA+rBWjHeVAekRoaqbC2xYWxSuRrMPdgK7G6lXIHorcSfjiSGb5wXwoolczbhswsT/lLqqKpMAH7MDotceULSLttyCRbVoMlm0FgG2ToRWNlZAksDzTag+Q1HtnrLmUPdoTxM9MJJxsqSyFlUYZas2g1GKIwUVmVvJXRtR4/amKogt9acZ4VEzU9ocxbCwF/gmDX1f16dq17T168BnS7+4jSJ54+F5dy0T1EQJsYo1u5xLX9c9fbg1pdaIWv3y3ziYBrKVTW3xZTNobLt2eSO/5UUYkog+i6WP7Lrj2LjlQW8MD1bT9SDzo4OO5jOjnoEIHg3Uqyzfnt3T16F8VXyysLDhkItiKsYZm5Nvj7d34/dC4gSUyCV0okIfwQ8MKEOBOeVnhbArl8HlCM0DtdqV00xbmOJWnHH59dS7lfRlX+/l5reuhDMVhtaVWsZrpvP6z+bfeO8gSdim+rH5gKUIUal+YoJjwz9TC6ThEhf7JQGUtkYM3PkBEAU+yJtT7gcx2k/Y8LoVCFG7uXAwVA+E2lDWg0+e7rxvRS8GhcBH2iUZfNK89HQMsuGBk2WzkXZtZ/PtPU/xFoeU+L/BnFokdJXrVL8Y287QRvivJZwO9RiB0Ym+XXdMnYRaW8=
   file_glob: true
   file: openjdk-build/workspace/target/*
   skip_cleanup: true
   on:
-    repo: TravaOpenJDK/trava-jdk-8-dcevm
+    repo: Salandora/trava-jdk-8-dcevm
     all_branches: true
     tags: true
